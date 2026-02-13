@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold-primary: #c4a962;
+  --gold-dark: #9a7a2f;
+  --navy-primary: #243b53;
+  --navy-light: #334e68;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gold-primary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-dark);
+}
+
+/* Utility classes */
+.container-custom {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-padding {
+  padding: 6rem 0;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--gold-primary), var(--gold-dark));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.6s ease-out forwards;
+}
+
+/* Stagger animation delays */
+.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-300 {
+  animation-delay: 0.3s;
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
+}
+
+.delay-500 {
+  animation-delay: 0.5s;
+}
+
+/* Image hover effects */
+.hover-zoom {
+  overflow: hidden;
+}
+
+.hover-zoom img {
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+/* Button animations */
+.btn-primary {
+  @apply bg-gold-500 text-white px-8 py-3 rounded-none font-medium tracking-wide uppercase text-sm transition-all duration-300;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.6s;
+}
+
+.btn-primary:hover::before {
+  left: 100%;
+}
+
+.btn-primary:hover {
+  @apply bg-gold-600 shadow-lg;
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  @apply border-2 border-gold-500 text-gold-500 px-8 py-3 rounded-none font-medium tracking-wide uppercase text-sm transition-all duration-300;
+}
+
+.btn-outline:hover {
+  @apply bg-gold-500 text-white shadow-lg;
+  transform: translateY(-2px);
+}
+
+/* Card styles */
+.card-luxury {
+  @apply bg-white rounded-none shadow-lg overflow-hidden transition-all duration-500;
+}
+
+.card-luxury:hover {
+  @apply shadow-2xl;
+  transform: translateY(-10px);
+}
+
+/* Overlay effects */
+.overlay-dark {
+  position: relative;
+}
+
+.overlay-dark::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+  z-index: 1;
+}
+
+.overlay-dark > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Divider */
+.divider {
+  width: 80px;
+  height: 3px;
+  background: var(--gold-primary);
+  margin: 1.5rem auto;
+}
+
+/* Loading skeleton */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s ease-in-out infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Lightbox */
+.lightbox {
+  @apply fixed inset-0 bg-black bg-opacity-95 z-50 flex items-center justify-center;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.lightbox-content {
+  @apply max-w-6xl max-h-screen p-4;
+  animation: scaleIn 0.4s ease-out;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 3rem 0;
+  }
+  
+  .container-custom {
+    padding: 0 1rem;
+  }
+}
+
+/* Testimonial carousel */
+.testimonial-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.testimonial-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonial-slide {
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+
+/* Parallax effect */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+/* Form styles */
+input, textarea, select {
+  @apply w-full px-4 py-3 border border-gray-300 focus:border-gold-500 focus:outline-none transition-colors duration-300;
+}
+
+input:focus, textarea:focus, select:focus {
+  box-shadow: 0 0 0 3px rgba(196, 169, 98, 0.1);
+}
+
+/* Navigation active state */
+.nav-link {
+  @apply relative text-white transition-colors duration-300;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--gold-primary);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+/* Star rating */
+.star-rating {
+  display: inline-flex;
+  gap: 0.25rem;
+}
+
+.star {
+  color: var(--gold-primary);
+}
+
+/* Luxury pattern background */
+.luxury-pattern {
+  background-image: 
+    linear-gradient(30deg, transparent 48%, rgba(196, 169, 98, 0.05) 48%, rgba(196, 169, 98, 0.05) 52%, transparent 52%),
+    linear-gradient(150deg, transparent 48%, rgba(196, 169, 98, 0.05) 48%, rgba(196, 169, 98, 0.05) 52%, transparent 52%);
+  background-size: 50px 50px;
+}

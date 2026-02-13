@@ -1,0 +1,411 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Ocean View Suite",
+      "type": "Suite",
+      "price": 450,
+      "currency": "USD",
+      "size": "65 m²",
+      "capacity": 2,
+      "beds": "1 King Bed",
+      "shortDescription": "Luxurious suite with panoramic ocean views and private balcony",
+      "description": "Immerse yourself in luxury with our Ocean View Suite, featuring floor-to-ceiling windows that frame breathtaking panoramic views of the azure ocean. This spacious 65 m² sanctuary offers a perfect blend of contemporary elegance and coastal charm, complete with a private balcony for intimate moments watching the sunset.",
+      "amenities": [
+        "Private Balcony",
+        "Ocean View",
+        "King-size Bed",
+        "Rain Shower",
+        "Complimentary WiFi",
+        "Mini Bar",
+        "Coffee Machine",
+        "Smart TV",
+        "Climate Control",
+        "In-room Safe"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800",
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800"
+      ],
+      "featured": true,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Presidential Villa",
+      "type": "Villa",
+      "price": 1200,
+      "currency": "USD",
+      "size": "180 m²",
+      "capacity": 4,
+      "beds": "2 King Beds",
+      "shortDescription": "Ultimate luxury with private pool and butler service",
+      "description": "Experience the pinnacle of luxury in our Presidential Villa. This magnificent 180 m² sanctuary features a private infinity pool, personal butler service, and exclusive access to our VIP amenities. Perfect for those seeking the ultimate in privacy and opulence.",
+      "amenities": [
+        "Private Infinity Pool",
+        "Butler Service",
+        "2 King Beds",
+        "Ocean & Garden Views",
+        "Outdoor Shower",
+        "Private Chef Available",
+        "Spacious Living Area",
+        "Wine Cellar",
+        "Jacuzzi",
+        "Private Terrace"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800",
+        "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800"
+      ],
+      "featured": true,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Garden Deluxe Room",
+      "type": "Deluxe Room",
+      "price": 280,
+      "currency": "USD",
+      "size": "45 m²",
+      "capacity": 2,
+      "beds": "1 Queen Bed",
+      "shortDescription": "Serene retreat overlooking tropical gardens",
+      "description": "Find tranquility in our Garden Deluxe Room, where lush tropical gardens create a peaceful sanctuary. This elegantly appointed 45 m² room offers the perfect escape with modern amenities and a private terrace overlooking our manicured gardens.",
+      "amenities": [
+        "Garden View",
+        "Private Terrace",
+        "Queen-size Bed",
+        "Walk-in Closet",
+        "Premium Toiletries",
+        "Coffee & Tea Station",
+        "Smart TV",
+        "Complimentary WiFi",
+        "Mini Fridge",
+        "Work Desk"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800",
+        "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800",
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800"
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Beachfront Bungalow",
+      "type": "Bungalow",
+      "price": 580,
+      "currency": "USD",
+      "size": "85 m²",
+      "capacity": 3,
+      "beds": "1 King Bed + 1 Single",
+      "shortDescription": "Direct beach access with private outdoor living space",
+      "description": "Step directly onto pristine white sand from your private Beachfront Bungalow. This charming 85 m² retreat combines rustic elegance with modern luxury, featuring an expansive outdoor deck, hammock, and unobstructed ocean views.",
+      "amenities": [
+        "Direct Beach Access",
+        "Private Deck",
+        "Outdoor Shower",
+        "King Bed + Single",
+        "Hammock",
+        "Beach Chairs",
+        "Complimentary WiFi",
+        "Mini Bar",
+        "Coffee Machine",
+        "Ceiling Fans"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800",
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800",
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800"
+      ],
+      "featured": true,
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Sunset Penthouse",
+      "type": "Penthouse",
+      "price": 950,
+      "currency": "USD",
+      "size": "150 m²",
+      "capacity": 4,
+      "beds": "2 King Beds",
+      "shortDescription": "Exclusive rooftop living with 360° panoramic views",
+      "description": "Elevate your stay in our spectacular Sunset Penthouse, perched atop the resort with breathtaking 360° views. This 150 m² masterpiece features a private rooftop terrace, plunge pool, and the most stunning sunset vistas on the island.",
+      "amenities": [
+        "Rooftop Terrace",
+        "Private Plunge Pool",
+        "360° Views",
+        "2 King Beds",
+        "Gourmet Kitchen",
+        "Wine Cooler",
+        "Outdoor Dining",
+        "Premium Sound System",
+        "2 Bathrooms",
+        "Fireplace"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800",
+        "https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=800",
+        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800"
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Tropical Pool Villa",
+      "type": "Villa",
+      "price": 780,
+      "currency": "USD",
+      "size": "120 m²",
+      "capacity": 3,
+      "beds": "1 King Bed + 1 Queen",
+      "shortDescription": "Private villa with tropical garden and pool",
+      "description": "Discover your private paradise in our Tropical Pool Villa. Surrounded by lush gardens and featuring a secluded swimming pool, this 120 m² haven offers the perfect balance of luxury and natural beauty.",
+      "amenities": [
+        "Private Pool",
+        "Tropical Garden",
+        "Outdoor Pavilion",
+        "King + Queen Beds",
+        "Outdoor Bathtub",
+        "Kitchenette",
+        "Dining Area",
+        "Premium WiFi",
+        "Smart Home System",
+        "Private Parking"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=800",
+        "https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?w=800",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800"
+      ],
+      "featured": false,
+      "available": false
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "title": "Spa & Wellness",
+      "category": "Wellness",
+      "description": "Indulge in our award-winning spa featuring traditional treatments and modern therapies",
+      "highlights": [
+        "Balinese Massage",
+        "Facial Treatments",
+        "Hydrotherapy Pool",
+        "Yoga Pavilion",
+        "Meditation Gardens"
+      ],
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800",
+      "duration": "60-120 min",
+      "priceFrom": 120
+    },
+    {
+      "id": 2,
+      "title": "Gourmet Dining",
+      "category": "Culinary",
+      "description": "Savor exquisite cuisine from our Michelin-starred chef",
+      "highlights": [
+        "Oceanfront Fine Dining",
+        "Private Beach BBQ",
+        "Wine Tasting",
+        "Cooking Classes",
+        "In-Villa Dining"
+      ],
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800",
+      "duration": "Various",
+      "priceFrom": 80
+    },
+    {
+      "id": 3,
+      "title": "Water Sports",
+      "category": "Adventure",
+      "description": "Explore the crystal-clear waters with our exciting water activities",
+      "highlights": [
+        "Scuba Diving",
+        "Snorkeling",
+        "Kayaking",
+        "Paddle Boarding",
+        "Sunset Sailing"
+      ],
+      "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800",
+      "duration": "2-4 hours",
+      "priceFrom": 65
+    },
+    {
+      "id": 4,
+      "title": "Island Excursions",
+      "category": "Adventure",
+      "description": "Discover hidden gems and local culture with our guided tours",
+      "highlights": [
+        "Private Island Tours",
+        "Sunset Cruises",
+        "Cultural Villages",
+        "Wildlife Watching",
+        "Photography Tours"
+      ],
+      "image": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=800",
+      "duration": "Half/Full Day",
+      "priceFrom": 150
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Mitchell",
+      "location": "New York, USA",
+      "rating": 5,
+      "comment": "An absolutely magical experience! The Ocean View Suite exceeded all our expectations. The attention to detail, impeccable service, and breathtaking views made our honeymoon unforgettable.",
+      "date": "2024-01-15",
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "James Chen",
+      "location": "Singapore",
+      "rating": 5,
+      "comment": "The Presidential Villa is pure luxury. Private pool, butler service, and the most stunning sunset views. The staff went above and beyond to make our anniversary special.",
+      "date": "2024-01-08",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "Emma Thompson",
+      "location": "London, UK",
+      "rating": 5,
+      "comment": "From the moment we arrived, we were treated like royalty. The spa treatments were world-class, the food was exceptional, and the beach was paradise. Can't wait to return!",
+      "date": "2023-12-22",
+      "verified": true
+    },
+    {
+      "id": 4,
+      "name": "Michael Rodriguez",
+      "location": "Barcelona, Spain",
+      "rating": 5,
+      "comment": "Best resort experience we've ever had. The Beachfront Bungalow with direct beach access was perfect. Water sports, fine dining, and incredible staff made this trip memorable.",
+      "date": "2023-12-10",
+      "verified": true
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "category": "Resort",
+      "title": "Main Pool Area",
+      "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800"
+    },
+    {
+      "id": 2,
+      "category": "Dining",
+      "title": "Oceanfront Restaurant",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800"
+    },
+    {
+      "id": 3,
+      "category": "Beach",
+      "title": "Private Beach",
+      "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800"
+    },
+    {
+      "id": 4,
+      "category": "Spa",
+      "title": "Wellness Center",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800"
+    },
+    {
+      "id": 5,
+      "category": "Resort",
+      "title": "Sunset View",
+      "image": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=800"
+    },
+    {
+      "id": 6,
+      "category": "Rooms",
+      "title": "Villa Interior",
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800"
+    },
+    {
+      "id": 7,
+      "category": "Activities",
+      "title": "Water Sports",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800"
+    },
+    {
+      "id": 8,
+      "category": "Dining",
+      "title": "Fine Dining",
+      "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800"
+    },
+    {
+      "id": 9,
+      "category": "Activities",
+      "title": "River Rafting",
+      "image": "https://images.unsplash.com/photo-1627241129356-137242cf14f0?q=80&w=1234&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ],
+  "amenities": [
+    {
+      "id": 1,
+      "name": "Infinity Pool",
+      "icon": "pool",
+      "description": "Three stunning infinity pools overlooking the ocean"
+    },
+    {
+      "id": 2,
+      "name": "Private Beach",
+      "icon": "beach",
+      "description": "Exclusive access to pristine white sand beach"
+    },
+    {
+      "id": 3,
+      "name": "Spa & Wellness",
+      "icon": "spa",
+      "description": "Award-winning spa with holistic treatments"
+    },
+    {
+      "id": 4,
+      "name": "Fine Dining",
+      "icon": "restaurant",
+      "description": "Multiple gourmet restaurants and bars"
+    },
+    {
+      "id": 5,
+      "name": "Fitness Center",
+      "icon": "fitness",
+      "description": "State-of-the-art gym with personal trainers"
+    },
+    {
+      "id": 6,
+      "name": "Concierge",
+      "icon": "concierge",
+      "description": "24/7 personalized concierge service"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@resort.com",
+      "name": "Admin User",
+      "role": "admin",
+      "bookings": []
+    },
+    {
+      "id": 2,
+      "email": "guest@example.com",
+      "name": "Guest User",
+      "role": "guest",
+      "bookings": [
+        {
+          "roomId": 1,
+          "checkIn": "2024-03-15",
+          "checkOut": "2024-03-20",
+          "guests": 2
+        }
+      ]
+    }
+  ]
+}
