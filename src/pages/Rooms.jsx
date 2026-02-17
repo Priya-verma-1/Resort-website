@@ -96,7 +96,7 @@ const Rooms = () => {
             </div>
 
             {/* Sort */}
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 whitespace-nowrap">
               <span className="text-gray-600 text-sm font-medium">Sort by:</span>
               <select
                 value={sortBy}

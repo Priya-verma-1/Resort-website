@@ -11,7 +11,7 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 // };
 
 const STORAGE_KEY = 'luxury_resort_data';
-const STORAGE_VERSION = 'v2'; // bump this when data.json changes
+const STORAGE_VERSION = 'v3'; // bump this when data.json changes
 
 const initializeStorage = () => {
   const stored = JSON.parse(localStorage.getItem(STORAGE_KEY));

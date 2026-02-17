@@ -18,13 +18,6 @@ const Footer = () => {
     { name: 'FAQ', path: '#' }
   ];
 
-  // const socialLinks = [
-  //   { name: 'Facebook', icon: '📘', url: '#' },
-  //   { name: 'Instagram', icon: '📷', url: '#' },
-  //   { name: 'Twitter', icon: '🐦', url: '#' },
-  //   { name: 'LinkedIn', icon: '💼', url: '#' }
-  // ];
-
   return (
     <footer className="bg-navy-900 text-white">
       {/* Newsletter Section */}
@@ -55,11 +48,15 @@ const Footer = () => {
         </div>
       </div>
 
+
+
+
       {/* Main Footer */}
       <div className="container-custom py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="flex flex-col md:flex-row md:flex-wrap justify-between mt-8 mb-8 px-8">
+
           {/* About */}
-          <div>
+          <div className="w-full md:w-1/2 lg:w-1/4 mb-12">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-12 h-12 border-2 border-gold-500 flex items-center justify-center">
                 <span className="font-display text-2xl font-bold text-gold-500">L</span>
@@ -70,29 +67,16 @@ const Footer = () => {
                 </h3>
               </div>
             </div>
+
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Experience unparalleled luxury and hospitality at our exclusive oceanfront resort.
-              Where every moment becomes a cherished memory.
-            </p>
-
-            {/* <div className="flex space-x-4">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.name}
-                  href={social.url}
-                  className="text-2xl hover:text-gold-500 transition-colors duration-300"
-                  aria-label={social.name}
-                  title={social.name}
-                >
-                  {social.icon}
-                </a>
-              ))}
-            </div> */}
-
+                Experience unparalleled luxury and hospitality at our exclusive oceanfront resort.
+                Where every moment becomes a cherished memory.
+              </p>
+  
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="mb-12">
             <h4 className="font-display text-xl font-bold mb-6 text-gold-500">
               Quick Links
             </h4>
@@ -111,7 +95,7 @@ const Footer = () => {
           </div>
 
           {/* Policies */}
-          <div>
+          <div className="mb-12">
             <h4 className="font-display text-xl font-bold mb-6 text-gold-500">
               Information
             </h4>
@@ -130,7 +114,7 @@ const Footer = () => {
           </div>
 
           {/* Contact */}
-          <div>
+          <div className="mb-12">
             <h4 className="font-display text-xl font-bold mb-6 text-gold-500">
               Contact Us
             </h4>
@@ -158,14 +142,18 @@ const Footer = () => {
         </div>
       </div>
 
+
+
+      
+
       {/* Bottom Bar */}
-      <div className="border-t border-navy-800">
-        <div className="container-custom py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-400 text-sm">
+      <div className="border-t-2 border-gold-500 opacity-60">
+        <div className="container-custom">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 pb-4 pt-4">
+            <p className="text-gray-300 text-sm">
               © {currentYear} Luxury Resort. All rights reserved.
             </p>
-            <div className="flex items-center space-x-6 text-sm text-gray-400">
+            <div className="flex items-center space-x-6 text-sm text-gray-300">
               <span className="flex items-center space-x-2">
                 <span>🏆</span>
                 <span>Award Winning Resort</span>

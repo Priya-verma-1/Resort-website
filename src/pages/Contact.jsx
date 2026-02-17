@@ -359,30 +359,6 @@ const Contact = () => {
                 ></iframe>
               </div>
 
-
-
-
-
-
-
-              {/* Social Links */}
-              {/* <div className="mt-8">
-                <h3 className="font-display text-xl font-bold text-navy-900 mb-4">
-                  Follow Us
-                </h3>
-                <div className="flex space-x-4">
-                  {['📘', '📷', '🐦', '💼'].map((icon, index) => (
-                    <a
-                      key={index}
-                      href="#"
-                      className="w-12 h-12 bg-navy-900 hover:bg-gold-500 rounded-full flex items-center justify-center text-white text-xl transition-all duration-300 hover:scale-110"
-                    >
-                      {icon}
-                    </a>
-                  ))}
-                </div>
-              </div> */}
-
             </div>
           </div>
         </div>

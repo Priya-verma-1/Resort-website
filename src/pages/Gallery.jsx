@@ -150,29 +150,6 @@ const Gallery = () => {
         </div>
       </section>
 
-      {/* Video Section */}
-      {/* <section className="section-padding bg-navy-900">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-6">
-              Experience Our Resort
-            </h2>
-            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-              Take a virtual tour through our luxury resort and discover what makes us special
-            </p>
-          </div>
-          
-          <div className="max-w-5xl mx-auto aspect-video bg-black rounded-lg overflow-hidden shadow-2xl">
-            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-navy-800 to-navy-900">
-              <div className="text-center text-white">
-                <div className="text-6xl mb-4">🎥</div>
-                <p className="text-xl">Video Tour Coming Soon</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       {/* Lightbox */}
       {lightboxImage && (
         <Lightbox
